@@ -21,7 +21,7 @@ position: relative;
 .images{
      width: 160px;
     height: 100px;
-    background-color:blueviolet;
+    background-color:blue;
     z-index: 1;
     top: 200px;
     position: relative;
@@ -56,25 +56,40 @@ position: relative;
 }
 
 .column{
-    float: left;
-    border: solid;
-    background-color: white;
+    width: 850px;
+    position: relative;
+    margin: 40px auto;
+    top: 28px;
     
 }
-.left {
+.left-column{
+    background-color: white;
     width: 328px;
-
+    height: 300px;
+    float: left;
 }
-.right{
+.container1{
+    background-color: blue;
+    width: 100px;
+    height: 90px;
+    top: 20px;
+}
+.right-column{
+    background-color: white;
     width: 512px;
-}
-.row::after{
-    content: "";
-    display: table;
-    clear: both;
+    height: 320px;
+    float: right; 
 
 }
-h2:after{
-    content: ' \004D;
+.container2{
+    background-color: blue;
+    width: 100px;
+    height: 90px;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+
 }
+    
+
 
